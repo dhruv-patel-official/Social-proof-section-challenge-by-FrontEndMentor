@@ -1,0 +1,203 @@
+body{
+	min-height: 100vh;
+	font-family: 'Spartan', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	margin: 0 22rem 0 22rem;
+}
+
+.content-1{
+	display: flex;
+	flex-direction: row;
+}
+
+.box-1{
+	flex: 1;
+}
+
+.box-1 h2{
+	color: #511f50;
+	margin-bottom: 1rem;
+	font-size: 4rem;
+}
+
+.box-1 p{
+	color: #9f969e;
+	line-height: 1.4rem;
+	margin-bottom: 2rem;
+}
+.box-2{
+	flex: 1;
+}
+
+.box-2 ul{
+	text-align: center;
+	list-style-type: none;
+	color: #511f50;
+	font-weight: bolder;
+	margin-bottom: 3rem;
+	float: right;
+}
+
+.card-1, .card-2, .card-3{
+	background-color: #f7f2f8;
+	border-radius: 0.5rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 1rem 3rem 1rem 3rem;
+	margin-bottom: 1rem;
+	position: relative;
+}
+
+.card-1{
+	right: 5rem;
+}
+
+.card-2{
+	right: 2.5rem;
+}
+
+.stars{
+	margin-right: 2rem;
+}
+
+.stars img{
+	margin: 0 0.1rem 0 0.1rem;
+}
+
+
+.content-2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.card-4, .card-5, .card-6{
+	background-color: #511f50;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 0.5rem;
+	padding: 2rem;
+	max-width: 20rem;
+	position: relative;
+}
+
+.card-5{
+	margin: 0 1rem 0 1rem;
+	top: 1rem;
+}
+
+.card-6{
+	top: 2rem;
+}
+
+.inner-card{
+	display: flex;
+	align-items: center;
+}
+
+.inner-card img{
+	height: 2.5rem;
+	border-radius: 100%;
+	margin-right: 1rem;
+}
+
+.name-1{
+	color: white;
+	font-weight: bolder;
+}
+
+.name-2{
+	color: #8a4175;
+}
+
+.text-review-2{
+
+	color: white;
+	margin-top: 1rem;
+	line-height: 1.4rem;
+}
+
+.attribution{
+	margin-top: 8rem;
+}
+
+@media only screen and (max-width: 1689px) {
+
+	.container{
+		margin: 0 15rem 0 15rem;
+	}
+}
+
+@media only screen and (max-width: 1465px) {
+
+	.container{
+		margin: 0 8rem 0 8rem;
+	}
+}
+
+@media only screen and (max-width: 1239px) {
+
+	.container{
+		margin: 5rem 2rem 5rem 2rem;
+	}
+
+	.content-1{
+		flex-direction: column;
+	}
+
+	.box-1{
+		text-align: center;
+	}
+
+	.box-1 h1{
+		font-size: 2rem;
+	}
+
+	.box-2 ul{
+		float: none;
+	}
+
+	.card-1, .card-2, .card-3{
+		flex-direction: column;
+		padding: 0.5rem 1rem 1rem 1rem;
+	}
+
+	.card-1, .card-2{
+		right: 0;
+	}
+
+	.stars{
+		margin: 0.5rem;
+	}
+
+	.content-2{
+		flex-direction: column;
+	}
+
+	.card-4{
+		margin-bottom: 1rem;
+		max-width: 100%;
+	}
+
+	.card-5, .card-6{
+		margin: 0 0 1rem 0;
+		max-width: 100%;
+		top: 0;
+	}
+
+	.attribution{
+		margin-top: 4rem;
+	}
+}
